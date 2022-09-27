@@ -17,6 +17,8 @@ int main() {
   int O_WINS = 0;
   bool newgame = true;
 
+    clearBoard(board);
+
   board[0][0] = 'a';
   board[1][1] = 'a';
   board[2][2] = 'a';
@@ -29,7 +31,7 @@ int main() {
 void printBoard(char board[3][3]) {
   cout << "  1 2 3" << endl;
   cout << "a " << board[0][0] << ' ' << board[1][0] << ' ' << board[2][0] << endl;
-  cout << "b " << board[0][1] << ' ' << board[1][2] << ' ' << board[2][1] << endl;
+  cout << "b " << board[0][1] << ' ' << board[1][1] << ' ' << board[2][1] << endl;
   cout << "c " << board[0][2] << ' ' << board[1][2] << ' ' << board[2][2] << endl;
 }
 
