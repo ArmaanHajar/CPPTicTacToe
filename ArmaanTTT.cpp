@@ -17,13 +17,15 @@ int main() {
   int O_WINS = 0;
   bool newgame = true;
 
-    clearBoard(board);
+  clearBoard(board);
 
   board[0][0] = 'a';
   board[1][1] = 'a';
   board[2][2] = 'a';
   
   printBoard(board);
+
+  cout << "Hello" << endl;
 
   return 0;
 }
