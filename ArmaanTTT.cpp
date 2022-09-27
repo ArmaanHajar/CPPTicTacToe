@@ -29,6 +29,7 @@ int main() {
 
   cout << "Hello" << endl;
   cout << "Hi" << endl;
+  cout << "Hey" << endl;
 
   return 0;
 }
