@@ -30,6 +30,7 @@ int main() {
   cout << "Hello" << endl;
   cout << "Hi" << endl;
   cout << "Hey" << endl;
+  cout << "Hi" << endl;
 
   return 0;
 }
