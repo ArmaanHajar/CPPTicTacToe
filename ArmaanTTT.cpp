@@ -19,6 +19,8 @@ int main() {
 
   clearBoard(board);
 
+// hi
+
   board[0][0] = 'a';
   board[1][1] = 'a';
   board[2][2] = 'a';
