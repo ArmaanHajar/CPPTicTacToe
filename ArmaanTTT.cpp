@@ -28,6 +28,7 @@ int main() {
   printBoard(board);
 
   cout << "Hello" << endl;
+  cout << "Hi" << endl;
 
   return 0;
 }
